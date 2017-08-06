@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/bootstrap/css/bootstrap.min.css' },
     ]
   },
   /*
@@ -36,7 +37,7 @@ module.exports = {
     },
     loader: {
       test: /\.css&/,
-      loader: 'css-loader',
+      loader: 'style-loader!css-loader',
     },
-  }
+  },
 }
