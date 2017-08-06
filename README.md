@@ -20,3 +20,10 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+
+# 使用sass/scss
+安装sass-loader/scss-loader即可
+```shell
+cnpm install --save-dev sass-loader scss-loader node-sass
+```

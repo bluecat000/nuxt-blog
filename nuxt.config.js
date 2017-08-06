@@ -34,10 +34,6 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    loader: {
-      test: /\.css&/,
-      loader: 'style-loader!css-loader',
-    },
-  },
+    }
+  }
 }
