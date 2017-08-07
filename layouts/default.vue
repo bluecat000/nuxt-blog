@@ -32,11 +32,6 @@
                 </ul>
               </li>
             </ul>            
-            <form class="navbar-form navbar-right">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-            </form>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
@@ -51,5 +46,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+.container-fluid{
+  max-width: 1020px;
+}
 </style>

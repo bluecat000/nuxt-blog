@@ -25,7 +25,7 @@ export default {
 <style lang="scss">
 .act{
   display: inline-block;
-  max-width: 670px;
+  max-width: 640px;
 }
 .row{
   margin: 0;
