@@ -1,13 +1,11 @@
 <template>
   <div class="act">
     <div class="row">
-      <div class="col-sm-6 col-md-4" v-for="list in 10">
-        <div class="thumbnail">
-          <!-- <img :src="img" alt="...">  -->
-          <div class="caption">
-            <h3>标题</h3>
-            <p>描述</p>
-          </div>
+      <div class="panel panel-default" v-for="list in 10" v-bind:key="list">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+          <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.</p>
         </div>
       </div>
     </div>
@@ -25,6 +23,10 @@ export default {
 </script>
 
 <style lang="scss">
+.act{
+  display: inline-block;
+  max-width: 670px;
+}
 .row{
   margin: 0;
 }
