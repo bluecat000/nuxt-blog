@@ -27,3 +27,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ```shell
 cnpm install --save-dev sass-loader scss-loader node-sass
 ```
+# nuxt-router
+需要重新启动开发环境
+
+TODO:配置到和官网描述添加新页面的时候无需重新加载
