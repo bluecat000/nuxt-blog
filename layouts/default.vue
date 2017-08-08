@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -36,7 +36,10 @@
         </div><!-- /.container-fluid -->
       </nav>
     </header>
-    <nuxt/>
+    <section class="container">
+      <nuxt/>
+    <Search />
+  </section>
   </div>
 </template>
 
@@ -48,5 +51,11 @@ export default {
 <style lang="scss">
 .container-fluid{
   max-width: 1020px;
+}
+.container{
+  position: relative;
+  top: 80px;
+  max-width: 1040px;
+  display: -webkit-box;
 }
 </style>
