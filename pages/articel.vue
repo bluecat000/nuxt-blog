@@ -16,7 +16,12 @@
 <script>
 import Search from '~/components/Search.vue'
 
+const axios = require('axios')
+
 export default {
+  created: () => {
+    axios.get('/markdown/README.md')
+  },
   components: {
     Search
   }
