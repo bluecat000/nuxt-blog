@@ -3,7 +3,7 @@
     <div class="row">
       <div class="panel panel-default" v-for="list in 10" v-bind:key="list">
         <!-- Default panel contents -->
-        <nuxt-link to="/articel">
+        <nuxt-link to="/index/articel">
           <div class="panel-heading">Panel heading</div>
             <div class="panel-body">
               <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.</p>

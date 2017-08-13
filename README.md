@@ -31,3 +31,7 @@ cnpm install --save-dev sass-loader scss-loader node-sass
 需要重新启动开发环境
 
 TODO:配置到和官网描述添加新页面的时候无需重新加载
+
+# 加载readme方法
+TODO:
+copy-webpack-plugin 
