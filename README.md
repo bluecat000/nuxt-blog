@@ -35,3 +35,9 @@ TODO:配置到和官网描述添加新页面的时候无需重新加载
 # 加载readme方法
 TODO:
 copy-webpack-plugin 
+
+# 计算属性和method()
+计算属性每次调用会更新,method不会
+
+# input model语法糖
+:vaule绑定数据 @input监听并更新
